@@ -9,7 +9,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      NAME_VERSION:  Qwen2-7B-Offline:2024v1
+      NAME_VERSION:  qwen2-7b-offline:2024v1
     steps:
     - name: Checkout
       uses: actions/checkout@v4
